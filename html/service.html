@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/queries.css">
+    <title>Yoga Studio</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        font-size: 1.6rem;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+
+      }
+
+    .hero-nav::before {
+    height: 140%;
+    background-image: none;
+    background-color: white;
+    
+    }
+
+      header {
+        background-color: #d47f35 ;
+        color: whitesmoke;
+        text-align: center;
+        padding: 1em 0;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .services {
+        display: grid;
+        column-gap: 12px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+      }
+
+      .service {
+        flex: 0 0 30%;
+        margin-bottom: 20px;
+        background-color: #f5e3d2 ;
+        padding: 20px 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+        border: 3px solid white;
+      }
+
+      .service h3 {
+          margin-top: 1.2rem;
+          margin-bottom: .8rem;
+      }
+
+      .service:hover {
+        transform: scale(1.05);
+      }
+
+      .service img {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+    
+    </style>
+  </head>
+  <body>
+    <div class="hero-nav hero-div">
+      <div class="header center-div">
+        <div class="logo-div">
+          <img
+            src="../img/gym.png"
+            alt="Logo of company: AL is written"
+            class="logo-img"
+          />
+          <!-- <h2 class="secondary-header">Aura Lift Fitness</h2> -->
+        </div>
+        <ul class="navbar">
+          <li><a href="/index.html" class="active link">Home</a></li>
+          <li><a href="/html/about.html" class="link">About</a></li>
+          <li><a href="/html/service.html" class="link">Service</a></li>
+          <a href="/html/contact.html" class="link"
+            ><button class="btn">Contact</button></a
+          >
+        </ul>
+      </div>
+    <header>
+      <h1>Our Services</h1>
+    </header>
+
+    <div class="container">
+      <div class="services">
+        <div class="service">
+          <img src="/img/service/hatha_yoga.jpg" alt="Hatha Yoga" />
+          <h3>Hatha Yoga</h3>
+          <p>
+            Hatha yoga is a traditional style that focuses on physical postures
+            and breathing exercises. It is great for beginners.
+          </p>
+        </div>
+
+        <div class="service">
+          <img src="/img/service/vinyasa_yoga.jpg" alt="Vinyasa Yoga" />
+          <h3>Vinyasa Yoga</h3>
+          <p>
+            Vinyasa yoga emphasizes the coordination of breath and movement. It
+            offers dynamic and flowing sequences.
+          </p>
+        </div>
+
+        <div class="service">
+          <img src="/img/service/ashtanga_yoga.jpg" alt="Ashtanga Yoga" />
+          <h3>Ashtanga Yoga</h3>
+          <p>
+            Ashtanga yoga is a rigorous style that follows a specific sequence
+            of postures and is physically demanding.
+          </p>
+        </div>
+        <div class="service">
+          <img src="/img/service/kundalini_yoga.jpg" alt="Kundalini Yoga" />
+          <h3>Kundalini Yoga</h3>
+          <p>
+            Kundalini yoga combines dynamic postures, breathwork, and meditation
+            to awaken the dormant spiritual energy within the body. It aims to
+            enhance awareness, promote inner peace, and unlock creative
+            potential.
+          </p>
+        </div>
+
+        <div class="service">
+          <img src="/img/service/yin_yoga.jpg" alt="Yin Yoga" />
+          <h3>Yin Yoga</h3>
+          <p>
+            Yin yoga involves holding gentle poses for an extended period,
+            usually several minutes, to target the deep connective tissues. It
+            helps improve flexibility, release tension, and promote a sense of
+            calm and balance in both the body and mind.
+          </p>
+        </div>
+
+        <div class="service">
+          <img src="/img/service/restorative_yoga.jpg" alt="Restorative Yoga" />
+          <h3>Restorative Yoga</h3>
+          <p>
+            Restorative yoga is a deeply relaxing practice that utilizes props
+            to support the body in passive poses. It is designed to promote
+            relaxation, reduce stress, and enhance overall well-being by
+            allowing the body and mind to unwind and rejuvenate.
+          </p>
+        </div>
+      </div>
+    </div>
+
+        
+    <footer class="other-footer" style="position:relative;">
+      &copy; 2023 Aura Lift Fitness. All rights reserved.
+  </footer> 
+  </body>
+</html>
